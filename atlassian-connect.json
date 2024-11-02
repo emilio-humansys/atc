@@ -1,0 +1,17 @@
+{
+    "key": "pmo-portal",
+    "name": "PMO Portal",
+    "description": "PMO Portal integration with JIRA",
+    "baseUrl": "https://97de-2806-262-340b-87b9-8255-feac-6457-2ef3.ngrok-free.app",
+    "authentication": {
+        "type": "jwt"
+    },
+    "scopes": [
+        "READ",
+        "WRITE"
+    ],
+    "apiVersion": 1,
+    "modules": {
+        "jiraApiVersion": "3"
+    }
+}
